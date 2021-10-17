@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<mate name="description" content="我的个人简历-登录页面"></mate>
+		<mate name="keywords" content="我的个人简历-登录页面"></mate>
+		<link rel="shortcut icon" href="logo.ico" />
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="Ands/fullpage/jquery.fullPage.css" />
+		<link rel="stylesheet" type="text/css" href="Ands/bootstrap-3.4.1/css/bootstrap.min.css"/>
+		<!--[if lt IE 9]>
+			<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+		<![endif]-->
+		<!-- js -->
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<title>登录页面</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.d0{
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 0px;
+				height: 5px;
+				background-color: #55aaff;
+				animation: d0 0.9s 1 ;
+				display: none;
+			}
+			.d00{
+				display: block;
+			}
+			@keyframes d0{
+				0%,100%{width: 0px;}
+				99.9%{width: 100%;}
+			}
+			.d1{
+				position: relative;
+				width: 70%;
+				height: 700px;
+				margin: 8% auto;
+				text-align: center;
+				overflow: hidden;
+			}
+			.d1>img{
+				width: 560px;
+				/* display: block; */
+				margin: 25px;
+				margin-left: 45px;
+			}
+			.d1_1>img,.d1_2>img{
+				position: absolute;
+				z-index: 1;
+
+
+			}.d1_1>img:nth-child(1),.d1_2>img:nth-child(1){
+				left: -25px;
+				top: -25px;
+				width: 150px;
+			}
+			.d1_1>img:nth-child(2),.d1_2>img:nth-child(2){
+				right: -50px;
+				top: -23px;
+				width: 550px;
+						}
+			.d1_1,.d1_2{
+				position: absolute;
+				padding-left: 120px;
+				transition: all .9s;
+				text-align: left;
+				top: 50px;
+				left: 50%;
+				transform: translateX(-50%);
+				/* width: 82%; */
+				display: none;
+				width: 478px;
+				height: 80%;
+				background-color: #fff;
+				box-shadow: 30px 15px 20px 20px #ff7d77;
+			}
+			.d1_2{
+				/* display: none; */
+			}
+.une{
+				width: 100px;
+				margin: 10px 20px 0;
+			}
+			.d1_11{
+				position: absolute;
+				top: 35%;
+				transform: translateY(-70%);
+				left: 11%;
+				width: 50%;height: 150px;
+			}
+			h2{
+				padding: 0 0 10px;
+				font-weight: 600;
+				display: block;
+				text-align: center;
+				border-bottom: 4px solid #424242;
+			}
+
+			label{
+				font-weight:600 ;
+				transition: all .7s;
+				font-size: 25px;
+				margin: 60px  20px 0;
+				color: #333;
+			}input{
+				transition: all .7s;
+				display: block;
+				outline: none;
+				font-size: 20px;
+				padding: 2px 8px;
+				width: 440px;
+				height: 50px;
+				border: none;
+				border-bottom: 1px solid #ccc;
+				margin-bottom: 7px;
+			}label>p a:nth-child(1){
+				font-size: 17px;
+				float: left;
+			}
+			label>p a:nth-child(2){
+				font-size: 17px;
+				float: right;
+			}.d1_12{
+				position: absolute;
+				bottom: 30px;
+				transform: translateY(-50%);
+				left: 10%;
+				width: 50%;height: 60px;
+				display: flex;
+				justify-content: center;
+			}.btn{
+				width: 80%;
+				height: 60px;
+				color: #fff;
+				font-size: 19px;
+				background-color: #fe7d77;
+				outline: none;
+				transition: all 0.2s;
+				border-radius: 5px;
+				border: 0px ;
+			}.btn:hover{
+				color: #fe7d77;
+				background-color: rgb(255,255,255,0.1);
+				border: 2px solid #fe7d77;
+			}.d2{
+				position: absolute;
+				top: 360px;
+				left: 28.8%;
+			}
+			.d2>div{
+				font-size: 20px;
+				margin-top: 5px;
+				width: 500px;
+				height: 40px;
+				background-color: rgb(0,0,0,0.2);
+				line-height: 40px;
+				text-align: center;
+				color: #ff0000;
+				border: 1px solid #aaa;
+				display: none;
+			}
+			.che{
+				width: 18px;
+				height: 18px;
+				display: inline-block;
+				margin: 0 8px 2px 0!important;
+				vertical-align: bottom;
+			}
+			.lab2{
+				margin: 45px 20px 0;
+				font-size: 15px;
+			}.d2_4{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="d0 "></div>
+		<div class="d1">
+			<img src="img/deng1.png" >
+
+			<div class="d1_1">
+				<img src="img/deng11.png" >
+				<img src="img/deng12.png" >
+				<div class="une">
+					<img src="img/Unqiue.png" alt="logo" width="100px" >
+				</div>
+				<div class="d1_11">
+					<h2>登 录</h2>
+					<label>访 问 码：<input class="text tty" type="text" name="text" value="" placeholder="访问码"><p style="	font-family: 'fangsong';"><a href="#" class="zc" >没访问码，立即注册</a><a href="ye1.html" class="nm">匿名访问 ?</a></p></label>
+					<label class="lab2"><span><input type="checkbox" class="che">我已认真阅读并同意<a href="#">《用户协议》</a>及<a href="#">《隐私条款》</a></span></label> 
+
+					
+				</div>
+				<div class="d1_12">
+					
+					<button type="button" class=" btn btn1" ><a href="ye1.html"></a>登 录</button>
+					
+				</div>
+			</div>
+			<div class="d1_2">
+				<img src="img/deng11.png" >
+					<img src="img/deng12.png" >
+					<div class="une">
+						<img src="img/Unqiue.png" alt="logo" width="100px" >
+					</div>
+					<div class="d1_11">
+						<h2>注 册</h2>
+						<label>访 问 码：<input class="text zhuce" type="text" name="text" value="" placeholder="请输入除符号外的字符..."></label>
+					</div>
+					<div class="d1_12">
+						<button type="button" class="btn btn2" >注 册</button>
+					</div>
+				</div>
+			</div>
+			<div class="d2">
+<!-- 				<div class="d2_1">
+					<p>输入错误！请检查访问码</p>
+				</div> -->
+				<div class="d2_2">
+					<p>请输入访问码</p>
+				</div>
+				<div class="d2_3">
+					<p>请阅读《用户协议》及《隐私条款》</p>
+				</div>
+				<div class="d2_4">
+					<p>该访问码已被其他人占用！</p>
+				</div>
+				<div class="d2_1">
+					<p>该访问码未注册！请前往注册</p>
+				</div>
+			</div>
+
+	</body>
+</html>

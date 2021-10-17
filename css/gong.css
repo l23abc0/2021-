@@ -1,0 +1,241 @@
+.xiaye{
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%);
+	animation: xy 1s infinite;
+	transition: all 3s;
+	z-index: 999;
+}@keyframes xy{
+	0%,100%{	bottom: 25px;}
+	50%{bottom: 2px;}
+}
+.nav2{
+	display: none;
+	position: absolute;
+	top: 0;
+	transition: all 1s;
+	width: 100%;
+}
+/* 背景圆球 */
+.bj {
+	/* overflow: hidden; */
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	width: 0%;
+	height: 0%;
+	transform: translate(0,0);
+	transition: all 1s;
+}
+
+.bj>div {
+	position: absolute;
+	transition: all 25s;
+}
+
+.bj>div:nth-child(1) {
+	animation: a1 30s linear infinite;
+	top: 200px;
+	left: 23%;
+}
+
+.bj>div:nth-child(2) {
+	animation: a2 30s linear infinite;
+	top: 220px;
+	left: 19%;
+}
+
+.bj>div:nth-child(3) {
+	animation: a3 60s linear infinite;
+	top: 100px;
+	right: 20%;
+}
+
+.bj>div:nth-child(4) {
+	animation: a4 60s linear infinite;
+	top: 80px;
+	right: 19%;
+}
+
+.bj>div:nth-child(5) {
+	animation: a5 60s linear infinite;
+	top: 750px;
+	left: -5%;
+}
+
+.bj>div:nth-child(6) {
+	animation: a6 60s linear infinite;
+	top: 250px;
+	right: -6%;
+}
+
+.bj>div:nth-child(7) {
+	animation: a7 60s linear infinite;
+	top: 350px;
+	right: 70%;
+}
+
+@keyframes a1 {
+
+	0%,
+	100% {
+		top: 200px;
+		left: 23%;
+	}
+
+	25%,
+	75% {
+		top: -150px;
+		left: 30%;
+	}
+
+	50% {
+		top: 100px;
+		left: 16%;
+	}
+}
+
+@keyframes a2 {
+
+	0%,
+	100% {
+		top: 220px;
+		left: 19%;
+	}
+
+	25%,
+	75% {
+		top: -20px;
+		left: 23%;
+	}
+
+	50% {
+		top: -30px;
+		left: 16%;
+	}
+}
+
+@keyframes a3 {
+
+	0%,
+	100% {
+		top: 100px;
+		right: 20%;
+	}
+
+	25%,
+	75% {
+		top: -180px;
+		right: 16%;
+	}
+
+	50% {
+		top: 150px;
+		right: 18%;
+	}
+}
+
+@keyframes a4 {
+
+	0%,
+	100% {
+		top: 80px;
+		right: 10%;
+	}
+
+	25%,
+	75% {
+		top: 180px;
+		right: 16%;
+	}
+
+	50% {
+		top: 300px;
+		right: 12%;
+	}
+}
+
+@keyframes a5 {
+
+	0%,
+	100% {
+		top: 750px;
+		left: -5%;
+	}
+
+	25%,
+	75% {
+		top: 500px;
+		left: 0%;
+	}
+
+	50% {
+		top: 650px;
+		left: 10%;
+	}
+}
+
+@keyframes a6 {
+
+	0%,
+	100% {
+		top: 250px;
+		right: -6%;
+	}
+
+	25%,
+	75% {
+		top: 350px;
+		right: 3%;
+	}
+
+	50% {
+		top: 500px;
+		right: 9%;
+	}
+}
+
+@keyframes a7 {
+
+	0%,
+	100% {
+		top: 350px;
+		right: 80%;
+	}
+
+	25%,
+	75% {
+		top: 200px;
+		right: 85%;
+	}
+
+	50% {
+		top: 120px;
+		right: 78%;
+	}
+}
+.nav2{
+	background-color: rgb(255,255,255,.5);
+	position: fixed!important;
+	top: 0;
+	left: 0;
+	border-bottom:1px solid #fff ;
+	height: 60px;
+}.nav2>.container-fluid>.navbar-collapse li a{
+	color: #333!important;
+}.nav2>.container-fluid>.navbar-collapse>ul>.active:hover a{
+	background-color: rgb(255, 125, 119,0.9)!important;
+}
+.nav2>.container-fluid>.navbar-collapse>ul>.active a { 
+	background-color: rgb(255, 125, 119)!important;
+	color: #fff!important;
+}
+.nav2 .tis {
+	color: #333;
+	float: right;
+	line-height: 60px;
+
+}

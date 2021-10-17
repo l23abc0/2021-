@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<mate name="description" content="我的个人简历-首页"></mate>
+		<mate name="keywords" content="我的个人简历-首页"></mate>
+		<link rel="shortcut icon" href="logo.ico" />
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="Ands/fullpage/jquery.fullPage.css" />
+		<link rel="stylesheet" type="text/css" href="Ands/bootstrap-3.4.1/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/y1.css" />
+		<link rel="stylesheet" type="text/css" href="css/gong.css" />
+		<!--[if lt IE 9]>
+			<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+		<![endif]-->
+		<!-- js -->
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="Ands/bootstrap-3.4.1/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="Ands/fullpage/jquery.fullPage.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="Ands/fullpage/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Echarts-min_5-02.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/y1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=zEaoAAhMLRndoYEcYeI76tBCpOecezLd"></script>
+		<script src="js/keshihua.js" type="text/javascript" charset="utf-8"></script>
+		<script src="a11.js" type="text/javascript" charset="utf-8"></script>
+		<title>首页-我的简介</title>
+	</head>
+	<body>
+
+		<!-- 导航条 -->
+		<nav id="gding" class="navbar navbar-default nav2">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"><img src="img/logo2.png" width="50px"
+							style="margin-top: -10px;"></a>
+					<a class="navbar-brand" href="#"><img src="img/Unqiue.png" style="margin:5px 20px 0 -5px"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+					<ul class="nav navbar-nav qxz">
+						<li data-menuanchor="page1"><a href="#page1">首 页 <span class="sr-only">(首页)</span></a></li>
+						<li data-menuanchor="page2"><a href="#page2">信 息</a></li>
+						<li data-menuanchor="page3"><a href="#page3">自 评</a></li>
+						<li data-menuanchor="page4"><a href="#page4">产 品</a></li>
+						<li data-menuanchor="page5"><a href="#page5">服 务</a></li>
+						<li data-menuanchor="page6"><a href="#page6">位 置</a></li>
+						<li data-menuanchor="page7"><a href="#page7">留 言</a></li>
+					</ul>
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control textsou" placeholder="请输入关键字...">
+						</div>
+						<button type="submit" class="btn btn-default">搜 索</button>
+					</form>
+					<div class="tis">
+						<p><span>“朋友”</span> ~ ， <span>晚上好！</span><span class="glyphicon glyphicon-certificate"></span>
+						</p>
+					</div>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid-->
+		</nav>
+		<div id="fullpage">
+			<!-- 第一屏 -->
+			<div class="section section1 container">
+				<!-- 导航条 -->
+				<nav class="navbar navbar-default navl">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="#"><img src="img/logo1bai.png" width="50px"
+									style="margin-top: -10px;"></a>
+							<a class="navbar-brand" href="#"><img src="img/Unqiue1.png" style="margin-right: 15px;"></a>
+						</div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li data-menuanchor="page1" class="active"><a href="#page1">首 页 <span
+											class="sr-only">(首页)</span></a></li>
+								<li data-menuanchor="page2"><a href="#page2">信 息</a></li>
+								<li data-menuanchor="page3"><a href="#page3">自 评</a></li>
+								<li data-menuanchor="page4"><a href="#page4">产 品</a></li>
+								<li data-menuanchor="page5"><a href="#page5">服 务</a></li>
+								<li data-menuanchor="page6"><a href="#page6">位 置</a></li>
+								<li data-menuanchor="page7"><a href="#page7">留 言</a></li>
+							</ul>
+							<form class="navbar-form navbar-left">
+								<div class="form-group">
+									<input type="text" class="form-control textsou" placeholder="请输入关键字...">
+								</div>
+								<button type="submit" class="btn btn-default">搜 索</button>
+							</form>
+							<div class="tis">
+								<p><span>“朋友”</span> ~ ， <span>晚上好！</span><span
+										class="glyphicon glyphicon-certificate"></span></p>
+							</div>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+				<!-- 轮播 -->
+				<div id="myCarousel" data-interval="3000" class="carousel">
+					<!-- 轮播（Carousel）项目 -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="img/762065921.jpg" class="d-img" alt="First slide">
+						</div>
+						<div class="item">
+							<img src="img/lun4.png" class="d-img" alt="Second slide">
+						</div>
+						<div class="item">
+							<img src="img/lun2.png" class="d-img" alt="Third slide">
+						</div>
+					</div>
+					<!-- 轮播（Carousel）导航 -->
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">左</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">右</span>
+					</a>
+				</div>
+				<div class="col-sm-12 jies">
+					<img src="img/toux.jpg" style="width: 16%;border-radius: 50%;cursor: pointer;" title="华晨宇">
+					<div class="tishi">
+						<h1 class="dzjh1">嗨~</h1>
+					</div>
+				</div>
+				<div class="col-sm-12 xiaye" style="cursor: pointer;" onclick="$.fn.fullpage.moveSectionDown();">
+					<img src="img/guide2.png" width="60px">
+				</div>
+
+
+
+
+			</div>
+			<!-- 第二屏 -->
+			<div class="section section2 container">
+				<!-- 背景 -->
+				<div class="bj">
+					<div><img src="img/ball-r-t.png" alt="1" width="230px"></div>
+					<div><img src="img/ball-l-b.png" alt="1" width="160px"></div>
+					<div><img src="img/ball-l-t.png" alt="1" width="200px"></div>
+					<div><img src="img/ball-y.png" alt="1" width="280px"></div>
+					<div><img src="img/ball-o.png" alt="1" width="500px"></div>
+					<div><img src="img/ball-g.png" alt="1" width="350px"></div>
+					<div><img src="img/ball-r.png" alt="1" width="320px"></div>
+				</div>
+				<!-- 我的简历 -->
+				<div class="biaoti">
+					<h2>关于我</h2>
+					<h5>我的基本信息——</h5>
+				</div>
+				<div class="f2">
+					<div class="f2_1">
+						<div class="tx">
+							<img src="img/toux.jpg" width="120px" height="120px">
+						</div>
+						<div class="mz">
+							<h4>赖嘉成</h4>
+							<h6>前端练习生</h6>
+						</div>
+						<div class="f2_1_1">
+							<span class="glyphicon glyphicon-user" aria-hidden="true" style="font-weight: 600;">
+								基本背景</span>
+							<div class="f2_1_1_1">
+								<h6 class="hang">姓名：<span>赖嘉成</span></h6>
+								<h6 class="hang">专业：<span>人工智能</span></h6>
+								<h6 class="hang">性别：<span>男</span></h6>
+								<h6 class="hang">民族：<span>汉族</span></h6>
+								<h6 class="hang">出生：<span>2000.9.27</span></h6>
+								<h6 class="hang">籍贯：<span>江西赣州</span></h6>
+								<h6 class="hang">政治面貌：<span>共青团员</span></h6>
+							</div>
+						</div>
+						<div class="f2_1_2">
+							<span class="glyphicon glyphicon-phone-alt" aria-hidden="true" style="font-weight: 600;">
+								联系方式</span>
+							<div class="f2_1_2_1">
+								<h6>电话：<span>13479456421</span></h6>
+								<h6>邮箱：<span>1660160809@qq.com</span></h6>
+								<h6>QQ：<span>1660160809</span></h6>
+
+							</div>
+						</div>
+
+					</div>
+					<div class="f2_2">
+						<div class="f2_2_1">
+							<span class="glyphicon  glyphicon-list-alt " aria-hidden="true" style="font-weight: 600;">
+								简历：</span>
+							<div class="f2_2_1_1">
+								<p><span> <b>时间：</b> 2019.9~2021.6</span>
+									<span> <b>就读学校：</b> 九江职业技术学院</span>
+								</p>
+								<p>
+									<b>主修专业：</b>Python、Java等编程语言、爬虫技术、深度学习、机器学习、软件测试和建模、MySQL、数据可视化、网页设计的HTML与CSS包括它们的相关内容，如JavaScript、jQuery。
+								<p>
+									<b>性格信仰：</b>爱国家，爱共党！
+								</p>
+								</p>
+							</div>
+
+						</div>
+						<div class="f2_2_2">
+							<span class="glyphicon glyphicon-check " aria-hidden="true" style="font-weight: 600;">
+								职业技能：</span>
+							<div class="f2_2_2_1">
+								<p><span> <b>时间：</b> 2019.9~2021.6</span>
+									<span> <b> </b> </span>
+								</p>
+								<p>
+									<b>我的兴趣：</b>我的兴趣较为广泛，喜欢听歌阅读看电影，篮球足球羽毛球。
+								</p>
+								<p>
+									<b>我的技能：</b>擅长Word、Excel、PPT、Wind等软件的安装与卸载，精通PE、PS、PB、DCF、PFG等单词的拼写，熟悉Windows、Linux、Mac、Android、iOS、WP8等系统的开关机。
+								</p>
+							</div>
+						</div>
+						<div class="f2_2_3">
+							<span class="glyphicon glyphicon-certificate " aria-hidden="true" style="font-weight: 600;">
+								自我评价：</span>
+							<div class="f2_2_2_1">
+								<p><span> <b>时间：</b> 2019.9~2021.6</span>
+									<span> <b> </b> </span>
+								</p>
+								<p>
+									<b>自我评价：</b>我是就读于九江职业技术学院隶属于信息工程学院的人工智能1902班的一名普通学生，我最喜欢的现代作家是鲁迅，陈忠实和钱学森，他们的作品精炼易懂且蕴含深意。喜欢的话有两句：一是汪曾祺先生的“家人闲坐，灯火可亲”，另一句是“为众人抱薪者，不可使其冻毙于风雪”。
+								</p>
+								<p>
+									<b>他人评价：</b>牛啊牛阿！
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+			<!-- 第三屏 -->
+			<div class="section section3 container">
+				<!-- 我的实力 -->
+				<div class="biaoti">
+					<h2>关于我</h2>
+					<h5>我的实力自评——</h5>
+				</div>
+				<div class="f3">
+					<div class="f3_1"></div>
+					<div class="f3_2"></div>
+				</div>
+				<div class="f31">
+					<h1 style="text-align: center;">我的部分服务</h1>
+					<div class="f31_1">
+						<p>王者荣耀：<span><i class=""></i></span></p>
+						<p>刺激战场：<span><i class=""></i></span></p>
+						<p>QQ飞车：<span><i class=""></i></span></p>
+						<p>网页设计：<span><i class=""></i></span></p>
+						<p>Ps抠图：<span><i class=""></i></span></p>
+						<p>五子棋：<span><i class=""></i></span></p>
+					</div>
+
+				</div>
+
+
+
+
+
+			</div>
+			<!-- 第四屏 -->
+			<div class="section section4 container">
+				<!-- 我的产品 -->
+				<div class="biaoti">
+					<h2>关于我</h2>
+					<h5>我的产品设计——</h5>
+				</div>
+				<div class="f4">
+					<ul class="f4_1">
+						<li><span>我设计的图标：</span>
+							<ul class="yc">
+								<li><a href="javascript:;"><img src="img/logo2.png" width="70px"></a></li>
+								<li><a href="javascript:;">暂无更多...</a></li>
+							</ul>
+						</li>
+						<li><span>我设计的网页：</span>
+							<ul>
+								<li><a href="javascript:;">暂无更多...</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div class="f4_2">
+						<div class="f4_2_1">
+							<div class="f4_2_1-top">
+								<img src="img/logo1.png" width="120px">
+								<img src="img/logo1bai.png" width="120px">
+								<img src="img/logo2.png" width="120px">
+							</div>
+							<div class="f4_2_1-bottom">
+								<h2>图标含义：</h2>
+								<p>整体来看，这图标是一个中文的“壮”字，拆开看会发现这是由“斗”跟“士”二字组合而成的，“斗”左上角的两点这里用火的形象表现出来，其中火是“中国红”的颜色，“士”的‘手上’拿着武器，意味着要时刻保持警惕，敢于斗争。所以，身为斗士，性格上不可缺少血性，身体上不可不强壮，精神上也不能懈怠。
+								</p>
+								<h2>设计理念：</h2>
+								<p>看《觉醒年代》，只觉当时中国正因有南陈北李、鲁迅、毛泽东、周恩来等面对黑暗敢于斗争的猛士，才得以出现后来的中国。反观剧中的胡适之，虽然他也在探索救国道路，但他表现过于懦弱，遇到事情只是妥协或逃避退缩，这也许是自救之路，却决不会是自强之路！所以才需要斗士，需要敢于拼搏的人反复的探索并验证！我们都应该成为这种敢于拼搏的人！
+								</p>
+								<h2>关于图标：</h2>
+								<p>这款图标共分为两类：一种是由细线条组成，看上去较为简约；另一种便是由粗线条组成，比较有力量感。</p>
+							</div>
+						</div>
+						<div class="f4_2_2">
+							<h1 style="text-align: center;padding-top: 25%;">无内容</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 第五屏 -->
+			<div class="section section5 container" >
+				<!-- 我的服务 -->
+				<div class="biaoti">
+					<h2>关于我</h2>
+					<h5>我的独特服务——</h5>
+				</div>
+
+				<div class="aa">
+					<h2>全厂秒杀</h2>
+					<h5>FLASH DEALS</h5>
+					<p>本场距离结束还有</p>
+					<div class="bb">
+						<div class="cc c1">
+							<span id="s1"></span>天
+						</div>
+						<div class="cc c2">
+							<span id="s2"></span>时
+						</div>
+						<div class="cc c3">
+							<span id="s3"></span>分
+						</div>
+						<div class="cc c4">
+							<span id="s4"></span>秒
+						</div>
+					</div>
+				</div>
+				<div class="f5">
+					<div class="f5_1">
+						<h2>PS抠图</h2>
+						<p>初学者</p>
+						<h3>10元/单</h3>
+						<span>立即下单</span>
+
+					</div>
+					<div class="f5_2">
+						<h2>海报制作</h2>
+						<p>初学者</p>
+						<h3>10元/单</h3>
+						<span>立即下单</span>
+					</div>
+					<div class="f5_3">
+						<h2>王者代打</h2>
+						<p>初学者</p>
+						<h3>10元/单</h3>
+						<span>立即下单</span>
+					</div>
+					<div class="f5_4">
+						<h2>PDD砍价</h2>
+						<p>初学者</p>
+						<h3>10元/单</h3>
+						<span>立即下单</span>
+					</div>
+					<div class="f5_5">
+						<h2>吃鸡苟分</h2>
+						<p>初学者</p>
+						<h3>10元/单</h3>
+						<span>立即下单</span>
+					</div>
+					<div class="f5_6">
+						<h2>视频剪辑</h2>
+						<p>初学者</p>
+						<h3>10元/单</h3>
+						<span>立即下单</span>
+					</div>
+					<div class="f5_7">
+						<h2>滴滴代打</h2>
+						<p>初学者</p>
+						<h3>10元/单</h3>
+						<span>立即下单</span>
+
+					</div>
+					<div class="f5_8">
+						<h2>广告位二</h2>
+						<div class="mm"></div>
+					</div>
+					<div class="f5_9">
+						<h2>广告位一</h2>
+						<div class="mm"></div>
+					</div>
+					<div class="f5_10">
+						<h2>广告位三</h2>
+						<div class="mm"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 第六屏 -->
+			<div class="section section6 container">
+				<!-- 我的联系方式 -->
+				<div class="biaoti">
+					<h2>关于我</h2>
+					<h5>我的联系方式——</h5>
+				</div>
+				<div class="f6">
+					<div class="f6_1" id="map"></div>
+					
+				</div>
+			</div>
+			<!-- 第七屏 -->
+			<div class="section section7 container">
+				<!-- 你给我的留言 -->
+				<div class="biaoti">
+					<h2>关于你</h2>
+					<h5>请你留下建议——</h5>
+				</div>
+				
+				<div class="f7">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								留言板
+							</h3>
+						</div>
+						<form class="pamel-body" id="formAddCmt">
+							<div>昵称：</div>
+							<input type="text" name="username"  class="form-control" id="namee" />
+							<div>留言内容：</div>
+							<textarea id="textt" rows="5" class="form-control" value="iugi" name="content" placeholder="请输入留言内容..."></textarea>
+							<button type="submit" class="btn btn-primary">发表留言</button>
+						</form>
+					</div>
+					
+					<ul class="list-group" id="cmt-list">
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</body>
+	<script>
+		var myChart0 = echarts.init(document.querySelector('.f3_1'));
+		var myChart1 = echarts.init(document.querySelector('.f3_2'));
+		var option0;
+		var option1;
+
+		// 指定图表的配置项和数据
+		option0 = {
+			textStyle: {
+
+				fontSize: 19, // 调节字体大小
+
+			},
+
+			label: {
+				fontWeight: "bold",
+				color: "#fff"
+			},
+			legend: {
+				top: '560px',
+			},
+
+			toolbox: {
+				show: true,
+				feature: {
+					// mark: {show: true},
+					// dataView: {show: true, readOnly: false},
+					// restore: {show: true},
+					// saveAsImage: {show: true}
+				}
+			},
+			series: [{
+				name: '实力自评',
+				type: 'pie',
+				radius: [35, 150],
+				center: ['43%', '50%'],
+				roseType: 'area',
+				itemStyle: {
+					borderRadius: 15
+				},
+
+				data: [{
+
+						value: 40,
+						name: 'Html5'
+					},
+					{
+						value: 38,
+						name: 'Css3'
+					},
+					{
+						value: 32,
+						name: 'Js'
+					},
+					{
+						value: 30,
+						name: 'jQuery'
+					},
+					{
+						value: 28,
+						name: '编程'
+					},
+					{
+						value: 26,
+						name: 'Bs'
+					},
+					{
+						value: 22,
+						name: 'Ps'
+					},
+					{
+						value: 18,
+						name: '剪映'
+					}
+				]
+			}]
+		};
+		option1 = {
+
+			label: {
+
+				fontWeight: "bold",
+				color: "#fff"
+			},
+			title: {
+
+				text: null,
+
+			},
+
+			textStyle: {
+
+
+				fontSize: 21, // 调节字体大小
+			},
+
+			legend: {
+
+				top: '560px',
+
+				textStyle: {
+
+					fontSize: 18, // 调节字体大小
+					color: '#fff'
+				},
+				data: ['其他人的完成进度', '我的完成进度']
+			},
+
+			radar: {
+
+				nameGap: 8, // 图中工艺等字距离图的距离
+				splitNumber: 7, // 网格线的个数
+				// shape: 'circle',
+				indicator: [{
+						name: '羽毛球',
+						max: 1000
+					},
+					{
+						name: '听音乐',
+						max: 1000
+					},
+					{
+						name: '阅读',
+						max: 1000
+					},
+					{
+						name: '打游戏',
+						max: 1000
+					},
+					{
+						name: '学习',
+						max: 1000
+					},
+					{
+						name: '看电影',
+						max: 1000
+					}
+				]
+			},
+
+			series: [{
+				name: '我的兴趣',
+				type: 'radar',
+				symbol: 'angle',
+				symbolSize: 8, // 拐点的大小
+				areaStyle: {
+					normal: {
+						width: 10,
+						opacity: 0.5,
+					},
+
+				},
+
+				data: [{
+						value: [800, 700, 900, 870, 990, 888],
+						name: '其他人的完成进度',
+					},
+					{
+						value: [800, 700, 900, 400, 865, 590],
+						name: '我的完成进度'
+					}
+				]
+			}]
+		};
+
+		myChart0.setOption(option0);
+		myChart1.setOption(option1);
+
+			var inputTime = +new Date('2021-6-11 12:00:00'); //返回用户输入的时间总的毫秒数
+			daojis();
+			setInterval(daojis, 1000)
+
+			function daojis(time) {
+				var nowTime = +new Date(); //返回时间总的毫秒数
+				var times = (inputTime - nowTime) / 1000; //times是剩余的总时间秒数
+				var d = parseInt(times / 60 / 60 / 24); //天
+				d = d < 10 ? '0' + d : d;
+				$("#s1").html(d);
+				var h = parseInt(times / 60 / 60 % 24); //时
+				h = h < 10 ? '0' + h : h;
+				$("#s2").html(h);
+				var m = parseInt(times / 60 % 60); //分
+				m = m < 10 ? '0' + m : m;
+				$("#s3").html(m);
+				var s = parseInt(times % 60); //秒
+				s = s < 10 ? '0' + s : s;
+				$("#s4").html(s);
+			};
+			//创建和初始化地图函数：
+					function initMap() {
+						createMap(); //创建地图
+						setMapEvent(); //设置地图事件
+						addMapControl(); //向地图添加控件
+						addMapOverlay(); //向地图添加覆盖物
+					}
+			
+					function createMap() {
+						map = new BMap.Map("map");
+						map.centerAndZoom(new BMap.Point(116.0225, 29.684575), 16);
+					}
+			
+					function setMapEvent() {
+						map.enableScrollWheelZoom();
+						map.enableKeyboard();
+						map.enableDragging();
+						map.enableDoubleClickZoom()
+					}
+			
+					function addClickHandler(target, window) {
+						target.addEventListener("click", function() {
+							target.openInfoWindow(window);
+						});
+					}
+					function addMapOverlay() {
+						var markers = [{
+							content: "我的位置",
+							title: "我的位置",
+							imageOffset: {
+								width: 5,
+								height: 3
+							},
+							position: {
+								lat: 29.679711,
+								lng: 116.022464
+							}
+						}];
+						for (var index = 0; index < markers.length; index++) {
+							var point = new BMap.Point(markers[index].position.lng, markers[index].position.lat);
+							var marker = new BMap.Marker(point, {
+								icon: new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png", new BMap.Size(20,
+									25), {
+									imageOffset: new BMap.Size(markers[index].imageOffset.width, markers[index]
+										.imageOffset.height)
+								})
+							});
+							var label = new BMap.Label(markers[index].title, {
+								offset: new BMap.Size(30, 5)
+							});
+							var opts = {
+								width: 200,
+								title: markers[index].title,
+								enableMessage: false
+							};
+							var infoWindow = new BMap.InfoWindow(markers[index].content, opts);
+							marker.setLabel(label);
+							addClickHandler(marker, infoWindow);
+							map.addOverlay(marker);
+						};
+					}
+					//向地图添加控件
+					function addMapControl() {
+						var scaleControl = new BMap.ScaleControl({
+							anchor: BMAP_ANCHOR_BOTTOM_LEFT
+						});
+						scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+						map.addControl(scaleControl);
+						var navControl = new BMap.NavigationControl({
+							anchor: BMAP_ANCHOR_TOP_LEFT,
+							type: 0
+						});
+						map.addControl(navControl);
+						var overviewControl = new BMap.OverviewMapControl({
+							anchor: BMAP_ANCHOR_BOTTOM_RIGHT,
+							isOpen: true
+						});
+						map.addControl(overviewControl);
+					}
+					var map;
+					initMap();
+	</script>
+</html>
